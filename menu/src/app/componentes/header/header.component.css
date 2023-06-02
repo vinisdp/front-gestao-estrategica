@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  background:linear-gradient(180deg, rgb(57, 57, 58) 0%, rgb(34, 34, 34) 35%, rgb(0, 0, 0) 100%);
+
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header .logo {
+  max-height: 50px;
+}
+
+.header .title-group {
+  padding-left: 25px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.header .title-group i {
+  padding-right: 5px;
+}
+.icone{
+  color: white;
+}
+.mat-card-avatar{
+  margin: 88%;
+  box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.482);
+}
+.mat-card-avatar:hover{
+  box-shadow: 2px 2px 2px 1px rgb(112, 240, 247);
+}
